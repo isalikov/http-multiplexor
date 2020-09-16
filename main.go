@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+    "http-multiplexor/server"
+)
 
-func main()
-    fmt.Printf("Hello, World\n")
+func main() {
+    server.Listen()
 }
